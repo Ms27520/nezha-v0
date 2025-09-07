@@ -56,19 +56,18 @@ You can change the dashboard language in the settings page (`/setting`) after th
 <a href="https://github.com/CosmosZ-code" title="CosmosZ-code"><img src="https://avatars.githubusercontent.com/u/81398224?v=4" width="50;" alt="CosmosZ-code"/></a>
 <a href="https://github.com/lvgj-stack" title="Ko no dio"><img src="https://avatars.githubusercontent.com/u/38449861?v=4" width="50;" alt="Ko no dio"/></a>
 <a href="https://github.com/hhhkkk520" title="Kris"><img src="https://avatars.githubusercontent.com/u/52115472?v=4" width="50;" alt="Kris"/></a>
-<a href="https://github.com/1ridic" title="1ridic"><img src="https://avatars.githubusercontent.com/u/88495501?v=4" width="50;" alt="1ridic"/></a>
-<a href="https://github.com/Mmx233" title="Mmx"><img src="https://avatars.githubusercontent.com/u/36563672?v=4" width="50;" alt="Mmx"/></a>
+<a href="https://github.com/Mmx233" title="Mmx233"><img src="https://avatars.githubusercontent.com/u/36563672?v=4" width="50;" alt="Mmx233"/></a>
 <a href="https://github.com/rootmelo92118" title="rootmelo92118"><img src="https://avatars.githubusercontent.com/u/32770959?v=4" width="50;" alt="rootmelo92118"/></a>
+<a href="https://github.com/1ridic" title="1ridic"><img src="https://avatars.githubusercontent.com/u/88495501?v=4" width="50;" alt="1ridic"/></a>
 <a href="https://github.com/zhucaidan" title="zhucaidan"><img src="https://avatars.githubusercontent.com/u/47970938?v=4" width="50;" alt="zhucaidan"/></a>
 <a href="https://github.com/iilemon" title="Sean"><img src="https://avatars.githubusercontent.com/u/33201711?v=4" width="50;" alt="Sean"/></a>
 <a href="https://github.com/fscarmen" title="fscarmen"><img src="https://avatars.githubusercontent.com/u/62703343?v=4" width="50;" alt="fscarmen"/></a>
 <a href="https://github.com/ch8o" title="no-name-now"><img src="https://avatars.githubusercontent.com/u/9103372?v=4" width="50;" alt="no-name-now"/></a>
 <a href="https://github.com/IamTaoChen" title="Tao Chen"><img src="https://avatars.githubusercontent.com/u/42793494?v=4" width="50;" alt="Tao Chen"/></a>
-<a href="https://github.com/HsukqiLee" title="HsukqiLee"><img src="https://avatars.githubusercontent.com/u/79034142?v=4" width="50;" alt="HsukqiLee"/></a>
+<a href="https://github.com/HsukqiLee" title="Hsukqi Lee"><img src="https://avatars.githubusercontent.com/u/79034142?v=4" width="50;" alt="Hsukqi Lee"/></a>
 <a href="https://github.com/DarcJC" title="Darc Z."><img src="https://avatars.githubusercontent.com/u/53445798?v=4" width="50;" alt="Darc Z."/></a>
 <a href="https://github.com/Creling" title="Creling"><img src="https://avatars.githubusercontent.com/u/43109504?v=4" width="50;" alt="Creling"/></a>
 <a href="https://github.com/coreff" title="Core F"><img src="https://avatars.githubusercontent.com/u/38347122?v=4" width="50;" alt="Core F"/></a>
-<a href="https://github.com/Septrum101" title="Spetrum"><img src="https://avatars.githubusercontent.com/u/11692994?v=4" width="50;" alt="Spetrum"/></a>
 <a href="https://github.com/nickfox-taterli" title="Tater Li"><img src="https://avatars.githubusercontent.com/u/19658596?v=4" width="50;" alt="Tater Li"/></a>
 <a href="https://github.com/hmsjy2017" title="Tony"><img src="https://avatars.githubusercontent.com/u/42692274?v=4" width="50;" alt="Tony"/></a>
 <a href="https://github.com/adminsama" title="adminsama"><img src="https://avatars.githubusercontent.com/u/60880076?v=4" width="50;" alt="adminsama"/></a>
@@ -81,13 +80,15 @@ You can change the dashboard language in the settings page (`/setting`) after th
 <a href="https://github.com/lyj0309" title="lyj"><img src="https://avatars.githubusercontent.com/u/50474995?v=4" width="50;" alt="lyj"/></a>
 <a href="https://github.com/unclezs" title="unclezs"><img src="https://avatars.githubusercontent.com/u/42318775?v=4" width="50;" alt="unclezs"/></a>
 <a href="https://github.com/ysicing" title="缘生"><img src="https://avatars.githubusercontent.com/u/8605565?v=4" width="50;" alt="缘生"/></a>
+<a href="https://github.com/hfdem" title="会飞的猫"><img src="https://avatars.githubusercontent.com/u/47923741?v=4" width="50;" alt="会飞的猫"/></a>
 <a href="https://github.com/arkylin" title="凌"><img src="https://avatars.githubusercontent.com/u/35104502?v=4" width="50;" alt="凌"/></a>
-<a href="https://github.com/colour93" title="玖叁"><img src="https://avatars.githubusercontent.com/u/64313711?v=4" width="50;" alt="玖叁"/></a>
+<a href="https://github.com/colour93" title="93"><img src="https://avatars.githubusercontent.com/u/64313711?v=4" width="50;" alt="93"/></a>
+<a href="https://github.com/Septrum101" title="Spetrum"><img src="https://avatars.githubusercontent.com/u/11692994?v=4" width="50;" alt="Spetrum"/></a>
 <a href="https://github.com/dreamingsleeping" title="Nanjing Hopefun Network Technology Co. Ltd."><img src="https://avatars.githubusercontent.com/u/13828658?v=4" width="50;" alt="Nanjing Hopefun Network Technology Co. Ltd."/></a>
+<a href="https://github.com/Ms27520" title="不二臣丶M"><img src="https://avatars.githubusercontent.com/u/45445334?v=4" width="50;" alt="不二臣丶M"/></a>
 <a href="https://github.com/Moraxyc" title="Moraxyc"><img src="https://avatars.githubusercontent.com/u/69713071?v=4" width="50;" alt="Moraxyc"/></a>
 <a href="https://github.com/silver-ymz" title="Mingzhuo Yin"><img src="https://avatars.githubusercontent.com/u/78400701?v=4" width="50;" alt="Mingzhuo Yin"/></a>
 <a href="https://github.com/MartijnLindeman" title="Martijn Lindeman"><img src="https://avatars.githubusercontent.com/u/78365708?v=4" width="50;" alt="Martijn Lindeman"/></a>
-<a href="https://github.com/xrgzs" title="MadDogOwner"><img src="https://avatars.githubusercontent.com/u/26499123?v=4" width="50;" alt="MadDogOwner"/></a>
 <a href="https://github.com/funnyzak" title="Leon"><img src="https://avatars.githubusercontent.com/u/2562087?v=4" width="50;" alt="Leon"/></a>
 <a href="https://github.com/KorenKrita" title="KorenKrita"><img src="https://avatars.githubusercontent.com/u/22239339?v=4" width="50;" alt="KorenKrita"/></a>
 <a href="https://github.com/techotaku" title="Ian Li"><img src="https://avatars.githubusercontent.com/u/1948179?v=4" width="50;" alt="Ian Li"/></a>
