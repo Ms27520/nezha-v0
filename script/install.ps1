@@ -28,26 +28,27 @@ if (Test-Path "C:\nezha\nezha-agent.exe") {
 #TLS/SSL
 Write-Host "Determining latest nezha release" -BackgroundColor DarkGreen -ForegroundColor White
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$agenttag = (Invoke-WebRequest -Uri $agentreleases -UseBasicParsing | ConvertFrom-Json)[0].tag_name
-if ([string]::IsNullOrWhiteSpace($agenttag)) {
-    $optionUrl = "https://fastly.jsdelivr.net/gh/nezhahq/agent/"
-    Try {
-        $response = Invoke-WebRequest -Uri $optionUrl -UseBasicParsing -TimeoutSec 10
-        if ($response.StatusCode -eq 200) {
-            $versiontext = $response.Content | findstr /c:"option.value"
-            $version = [regex]::Match($versiontext, "@(\d+\.\d+\.\d+)").Groups[1].Value
-            $agenttag = "v" + $version
-        }
-    } Catch {
-        $optionUrl = "https://gcore.jsdelivr.net/gh/nezhahq/agent/"
-        $response = Invoke-WebRequest -Uri $optionUrl -UseBasicParsing -TimeoutSec 10
-        if ($response.StatusCode -eq 200) {
-            $versiontext = $response.Content | findstr /c:"option.value"
-            $version = [regex]::Match($versiontext, "@(\d+\.\d+\.\d+)").Groups[1].Value
-            $agenttag = "v" + $version
-        }
-    }
-}
+$agenttag = "v0.20.5"
+# $agenttag = (Invoke-WebRequest -Uri $agentreleases -UseBasicParsing | ConvertFrom-Json)[0].tag_name
+# if ([string]::IsNullOrWhiteSpace($agenttag)) {
+#     $optionUrl = "https://fastly.jsdelivr.net/gh/nezhahq/agent/"
+#     Try {
+#         $response = Invoke-WebRequest -Uri $optionUrl -UseBasicParsing -TimeoutSec 10
+#         if ($response.StatusCode -eq 200) {
+#             $versiontext = $response.Content | findstr /c:"option.value"
+#             $version = [regex]::Match($versiontext, "@(\d+\.\d+\.\d+)").Groups[1].Value
+#             $agenttag = "v" + $version
+#         }
+#     } Catch {
+#         $optionUrl = "https://gcore.jsdelivr.net/gh/nezhahq/agent/"
+#         $response = Invoke-WebRequest -Uri $optionUrl -UseBasicParsing -TimeoutSec 10
+#         if ($response.StatusCode -eq 200) {
+#             $versiontext = $response.Content | findstr /c:"option.value"
+#             $version = [regex]::Match($versiontext, "@(\d+\.\d+\.\d+)").Groups[1].Value
+#             $agenttag = "v" + $version
+#         }
+#     }
+# }
 #Region判断
 $ipapi = ""
 $region = "Unknown"
@@ -64,12 +65,13 @@ foreach ($url in ("https://dash.cloudflare.com/cdn-cgi/trace","https://developer
     }
 }
 echo $ipapi
-if($region -ne "CN"){
 $download = "https://github.com/$agentrepo/releases/download/$agenttag/$file"
-Write-Host "Location:$region,connect directly!" -BackgroundColor DarkRed -ForegroundColor Green
+if($region -ne "CN"){
+    Write-Host "Location:$region,connect directly!" -BackgroundColor DarkRed -ForegroundColor Green
 }else{
-$download = "https://gitee.com/naibahq/agent/releases/download/$agenttag/$file"
-Write-Host "Location:CN,use mirror address" -BackgroundColor DarkRed -ForegroundColor Green
+    $mirror = "https://ghproxy.net/"
+    $download = "$mirror$download"
+Write-Host "Location:CN,use mirror address: $mirror" -BackgroundColor DarkRed -ForegroundColor Green
 }
 echo $download
 Invoke-WebRequest $download -OutFile "C:\nezha.zip"
